@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "React",
+      "level": "Expert",
+      "icon": "/images/react-icon.png"
+    },
+    {
+      "id": 2,
+      "name": "Node.js",
+      "level": "Expert",
+      "icon": "/images/node-js-icon.png"
+    },
+    {
+      "id": 3,
+      "name": "MongoDB",
+      "level": "Expert",
+      "icon": "/images/mongodb-icon.png"
+    },
+    {
+      "id": 4,
+      "name": "CSS",
+      "level": "Expert",
+      "icon": "/images/css-icon.png"
+    },
+    {
+      "id": 5,
+      "name": "HTML",
+      "level": "Expert",
+      "icon": "/images/html-icon.png"
+    }
+  ]
+  

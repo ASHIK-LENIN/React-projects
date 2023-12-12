@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Courier+Prime:ital@1&family=Oswald:wght@300&family=Quicksand&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Courier Prime', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif;
+color: black
+
+  }
+  
+  body {
+    background-image: url("michael-d-rnKqWvO80Y4-unsplash.jpg");
+   background-size: cover;
+  }
+  
+  
+  .app {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  
+  .app .mainHeading h2 {
+    text-align: left;
+  }
+  
+  .app h2,
+  h2 {
+    color: rgb(255, 119, 0);
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  
+  .app .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .app .input {
+    margin-top: 0.8em;
+    width: 23em;
+    height: 2em;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 34px;
+    border: 2px solid rgb(255, 119, 0);
+  }
+  
+  .app .input input {
+    width: 100%;
+    height: 1.6em;
+    border-color: transparent;
+    outline-color: transparent;
+    background-color: whitesmoke;
+    
+  }
+  
+  .app i {
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(255, 119, 0);
+    margin-right: 5px;
+  }
+  .app .todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+  .app .todos .todo {
+    margin-top: 0.8em;
+    width: 23em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+    border: 2px rgb(255, 119, 0) solid;
+  }
+  .app .todos .todo .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app .todos .todo .left p {
+    margin-left: 3px;
+    font-size: medium;
+    font-weight: 700;
+    font-style: normal;
+    color: grey;
+  }
+
+  input[type=checkbox]:checked + label {
+    color:rgba(0, 0, 0, 0.956);
+    text-decoration: line-through; 
+    text-decoration-color: #c42f2f;
+    text-decoration-thickness:3px;
+  
+  }
+
+  .container{
+    width: 28em;
+    height: 12em;
+    border: 2px rgb(255, 119, 0) solid;
+    margin-top: 70px;border-radius: 20px;
+    background: rgba( 248, 182, 182, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    
+  }
+
+  .icon{
+    width: 25px;
+    
+    
+  }
+
+  #cbox{
+    
+    width:14px;
+    height: 22px;
+}
+  
